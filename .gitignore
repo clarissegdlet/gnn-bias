@@ -1,0 +1,20 @@
+# Données (trop volumineuses / pas versionnées)
+data/*
+!data/.gitkeep
+
+# Résultats bruts
+results/*.csv
+results/*.png
+!results/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env
+
+# Checkpoints modèle
+*.pth
+*.ckpt
+saved/
